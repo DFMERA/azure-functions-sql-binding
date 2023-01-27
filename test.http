@@ -1,0 +1,18 @@
+POST http://localhost:7071/api/HttpSqlApiInsert
+content-type: application/json
+
+[
+    {
+      "Id": "87de9b48-cdb5-4ca3-bf76-05c4c2a1fe92",
+      "order": 1,
+      "title": "Have breakfast",
+      "url": "none",
+      "completed": 0
+    }
+]
+
+###
+
+GET http://localhost:7071/api/HttpSqlApiSelect
+    ?id=87de9b48-cdb5-4ca3-bf76-05c4c2a1fe92
+content-type: application/json

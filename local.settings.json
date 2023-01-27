@@ -1,0 +1,9 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "PYTHON_ISOLATE_WORKER_DEPENDENCIES": "1",
+    "SqlConnectionString": "Server={Azure SQL Server};Initial Catalog={Database name};Persist Security Info=False;User ID={user};Password={password};"
+  }
+}

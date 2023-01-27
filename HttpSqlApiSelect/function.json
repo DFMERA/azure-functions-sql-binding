@@ -1,0 +1,29 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "authLevel": "function",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "methods": [
+        "get",
+        "post"
+      ]
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "$return"
+    },
+    {
+      "name": "todoItems",
+      "type": "sql",
+      "direction": "in",
+      "commandText": "Select * from [dbo].[ToDo] where Id = @Id",
+      "commandType": "Text",
+      "parameters": "@Id={id}",
+      "connectionStringSetting": "SqlConnectionString"
+    }
+  ]
+}
