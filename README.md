@@ -113,3 +113,6 @@ GET http://localhost:7071/api/HttpSqlApiSelect
     ?id=87de9b48-cdb5-4ca3-bf76-05c4c2a1fe92
 content-type: application/json
 ```
+
+**See the blog post**
+[Azure Functions SQL Binding using Python](https://acelera.tech/2023/02/10/azure-functions-sql-binding-con-python/)
